@@ -1,0 +1,27 @@
+{
+  "name": "training-nextjs-01",
+  "version": "1.0.0",
+  "description": "Builder NextJS 01",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanniieGil/training-nextjs-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanniieGil/training-nextjs-01/issues"
+  },
+  "homepage": "https://github.com/DanniieGil/training-nextjs-01#readme",
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
