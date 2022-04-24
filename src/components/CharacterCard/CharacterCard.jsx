@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import {
   nameCharacter,
@@ -8,9 +8,11 @@ import {
 
 export const CharacterCard = ({ id, name, image, status, species }) => {
   return (
-    <div className={container}>
-      <h2 className={nameCharacter}>{name}</h2>
-      <img className={imgCharacter} src={image} alt={name} />
-    </div>
+    <Link key={id} href={`/personaje/${id}`}>
+      <div className={container} onClick>
+        <h2 className={nameCharacter}>{name}</h2>
+        <img className={imgCharacter} src={image} alt={name} />
+      </div>
+    </Link>
   );
 };
