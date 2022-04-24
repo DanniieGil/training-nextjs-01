@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.minHeight {
+  min-height: 82vh;
+}

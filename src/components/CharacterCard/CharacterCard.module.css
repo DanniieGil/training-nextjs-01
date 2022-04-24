@@ -1,0 +1,24 @@
+
+.container {
+  border:1px solid black;
+  padding:12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.container:hover{
+  transform: scale(1.01);
+  box-shadow: 1px 1px 10px 0.5px rgb(77, 75, 75);
+}
+
+.nameCharacter {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.imgCharacter {
+  width: 100%;
+}
